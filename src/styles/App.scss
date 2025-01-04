@@ -1,0 +1,16 @@
+// Configuration
+@use './config/variables.scss';
+@use './config/mixins.scss';
+
+// Base styles
+@use './config/base';
+
+// Utilities classes
+// @use 'utilities';
+
+// Components
+@use './components';
+
+//sections
+@use './sections'; // Partials
+// @use 'partials';

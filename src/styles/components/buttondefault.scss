@@ -1,0 +1,24 @@
+.button {
+  position: absolute;
+  width: 183px; // Valor predeterminado
+  height: 40px;
+  background: #f7c86b 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 100px;
+  opacity: 1;
+  cursor: pointer;
+
+  &.button-large {
+    // top: 430px;
+    left: 155px;
+    width: 183px;
+    height: 40px;
+  }
+
+  &.button-small {
+    // top: 5840px;
+    left: 731px;
+    width: 128px;
+    height: 40px;
+  }
+}

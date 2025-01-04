@@ -1,0 +1,61 @@
+// --- Variables de colores y fuentes ---
+
+$button-background-black: #000000;
+$button-background-white: #ffffff;
+$button-text-black: #000000;
+$button-text-white: #ffffff;
+
+// colores
+$primary-100: #f2f0f1;
+$secondary-100: #ceb0b0d4;
+$white-100: #ffffff;
+$neutral-900: #000000;
+//prefix
+$prefix: 'my-theme'; // Define el prefijo que quieras usar
+//theme
+$theme-colors: (
+  'primary-100': $primary-100,
+  'secondary-100': $secondary-100,
+  'tertiary-100': $white-100,
+  'neutral-900': $neutral-900,
+);
+
+// main
+$color-main: $neutral-900;
+
+//fonts
+$font-integral-bold: 'Integral CF', sans-serif;
+$font-satoshi-regular: 'Satoshi', sans-serif;
+$font-satoshi-medium: 'Satoshi', sans-serif;
+$font-satoshi-bold: 'Satoshi', sans-serif;
+
+// Tamaños de fuente
+$font-size-a: 12px;
+
+$font-size-s: 14px;
+$font-size-m: 16px;
+$font-size-l: 18px;
+
+// Border radius
+$border-radius-s: 5px;
+
+// Breakpoints
+$breakpoint-sm: 768px; // Punto de corte para móviles y tabletas
+
+// --- Botones y tamaños ---
+$desktop-button-width: 210px;
+$desktop-button-height: 25px;
+
+$mobile-button-width: 358px;
+$mobile-button-height: 52px;
+
+$desktop-text-width: 75px;
+$desktop-text-height: 22px;
+
+$white-button-width: 349px;
+$white-button-height: 46px;
+
+$mobile-white-button-width: 311px;
+$mobile-white-button-height: 42px;
+
+$breakpoint-mobile: 768px;

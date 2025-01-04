@@ -1,0 +1,35 @@
+// @use 'sass:map';
+// @use '../variables' as vars;
+
+// @mixin text-style-black() {
+//   font-size: vars.$font-size-m;
+//   font-family: vars.$font-satoshi-regular;
+//   color: vars.$neutral-900;
+//   line-height: 1.5;
+
+//   // Estilos responsivos para dispositivos móviles
+//   @media (max-width: 768px) {
+//     font-size: vars.$font-size-s; // Cambiar el tamaño de fuente en pantallas pequeñas
+//   }
+// }
+
+// @mixin text-style-white() {
+//   font-size: vars.$font-size-m;
+//   font-family: vars.$font-satoshi-regular;
+//   color: vars.$white-100;
+//   line-height: 1.5;
+
+//   // Estilos responsivos para dispositivos móviles
+//   @media (max-width: 768px) {
+//     font-size: vars.$font-size-s; // Cambiar el tamaño de fuente en pantallas pequeñas
+//   }
+// }
+
+// @mixin text-style-blacknavbarHamburguesa() {
+//   font-size: vars.$font-size-l;
+//   font-family: vars.$font-satoshi-regular;
+//   color: vars.$neutral-900;
+//   line-height: 1.5;
+//   font-weight: bold;
+//   // Estilos responsivos para dispositivos móviles
+// }
