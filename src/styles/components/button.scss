@@ -1,0 +1,53 @@
+/* Botón base (sin estilos por defecto) */
+.button {
+  all: unset; /* Reinicia todos los estilos del botón */
+  cursor: pointer; /* Agrega un puntero para indicar interactividad */
+}
+
+/* Botón grande */
+.button-large {
+  position: absolute;
+  left: 155px;
+  width: 183px;
+  height: 40px;
+  background: #f7c86b 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 100px;
+  opacity: 1;     
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Botón pequeño */
+.button-small {
+  position: absolute;
+  left: 731px;
+  width: 128px;
+  height: 40px;
+  background: #f7c86b 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 100px;
+  opacity: 1;     
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Botón predeterminado (básico) */
+.button-default {
+  color: #ffffff;
+  background: none; /* Sin fondo */
+  border: none; /* Sin borde */
+  font: normal normal medium 20px/30px Poppins;
+  letter-spacing: 0px;
+  opacity: 1;
+  text-decoration: none;
+  margin: 1em;
+  font-size: 25px;
+}
+
+/* Hover effect para botón predeterminado */
+.button-default:hover {
+  color: #f7c86b; /* Cambia el color al pasar el cursor */
+}
