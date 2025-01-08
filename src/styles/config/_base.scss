@@ -88,6 +88,10 @@ video {
   font-family: inherit;
   vertical-align: baseline;
 }
+img {
+  max-width: 100%; /* Escala las imágenes al contenedor */
+  height: auto; /* Mantiene la proporción */
+}
 
 html {
   scroll-behavior: smooth;

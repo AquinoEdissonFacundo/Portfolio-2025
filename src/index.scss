@@ -1,4 +1,9 @@
 @use './styles/App.scss';
 * {
-  background-color: rgb(0, 0, 0);
+  max-width: 100%; /* Asegura que los elementos no se salgan del viewport */
+  overflow-x: hidden;
+  box-sizing: border-box; /* Incluye padding y border dentro del ancho */
+}
+html {
+  background-color: #34353a;
 }

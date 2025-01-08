@@ -6,14 +6,14 @@
 
 /* Botón grande */
 .button-large {
-  position: absolute;
+  // position: absolute;
   left: 155px;
   width: 183px;
   height: 40px;
   background: #f7c86b 0% 0% no-repeat padding-box;
   border: 1px solid #707070;
   border-radius: 100px;
-  opacity: 1;     
+  opacity: 1;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,7 +28,7 @@
   background: #f7c86b 0% 0% no-repeat padding-box;
   border: 1px solid #707070;
   border-radius: 100px;
-  opacity: 1;     
+  opacity: 1;
   display: flex;
   align-items: center;
   justify-content: center;
