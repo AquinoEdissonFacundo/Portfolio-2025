@@ -108,47 +108,102 @@
 // Media queries
 @media (max-width: 1024px) {
   .hero {
-    margin-top: 10em;
     display: flex;
     flex-direction: column;
+    justify-content: flex-start; // El texto queda arriba
     align-items: center;
+    min-height: 100vh;
+    position: relative;
+    overflow: hidden;
+
     &__content {
-      max-width: 100%;
       width: 100%;
-      text-align: center;
+      max-width: 100%;
+      align-items: center;
+      padding: 2rem;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+
       .hero__contenttitle {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        margin-left: 0;
+
         align-items: center;
       }
       .hero__title {
-        justify-content: center;
         font-size: 2.5rem;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        font-weight: bold;
       }
 
       .hero__role {
         font-size: 2rem;
+        font-weight: 300;
       }
     }
 
     &__contentsocial {
-      margin-top: 2rem;
+      position: relative;
+      width: 100%;
+      height: 50%; // La imagen ocupa la mitad inferior
+      display: flex;
+      align-items: flex-end;
+
+      .hero__image {
+        position: absolute;
+        bottom: 0; // La imagen toca el borde inferior
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; // La imagen cubre el área
+        object-position: center;
+        z-index: 1; // La imagen queda detrás del texto
+      }
 
       .hero__social {
-        flex-direction: row;
+        position: absolute;
         bottom: 2rem;
-        top: auto;
-        right: 50%;
-        transform: translateX(50%);
-        padding: 1rem;
+        left: 50%;
+        transform: translateX(-50%);
+        flex-direction: row;
+        gap: 1rem;
 
         &::before {
           display: none;
         }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    &__content {
+      padding: 1rem;
+
+      .hero__title {
+        font-size: 2rem;
+      }
+
+      .hero__role {
+        font-size: 1.5rem;
+      }
+    }
+
+    &__contentsocial {
+      height: 40%; // Reduce la altura de la imagen para dispositivos más pequeños
+
+      .hero__image {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+      }
+
+      .hero__social {
+        bottom: 1rem;
+        gap: 0.5rem;
       }
     }
   }

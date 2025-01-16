@@ -10,7 +10,7 @@ const HeroSection = () => {
         <div className='hero__content'>
           <div className='hero__contenttitle'>
             <h1 className='hero__title'>
-              Soy <span className='hero__name'>Facundo Toloza</span>
+              Soy <span className='hero__name'> Facundo Toloza</span>
             </h1>
             <p className='hero__role'>Full Stack-Developer</p>
             <Button
